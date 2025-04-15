@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background: #caeded;
+    padding: 5px 15px;
+}
+.countainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    overflow-x: scroll;
+    /* text-align: center; */
+    padding: 20px 15px;
+}
+.animals{
+    text-align: center;
+    padding: 30px 0;
+}
+.animals img{
+    width: 590px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.nature{
+    text-align: center;
+    padding: 30px 0;
+}
+.nature img{
+    width: 590px;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.button{
+    background: #067d06;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: 89%;
+}
+.button a{
+    text-decoration: none;
+}
+.button2{
+    background: #067d06;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: 187%;
+}
+.button2 a{
+    text-decoration: none;
+}
